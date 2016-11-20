@@ -12,7 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class MainController {
-
+	
+	// second commit
+	
 	@RequestMapping(value = { "/", "/welcome**" }, method = RequestMethod.GET)
 	public ModelAndView defaultPage() {
 
